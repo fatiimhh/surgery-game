@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Obada's Surgery Survival ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="app">
+
+    <div class="floating-hearts" aria-hidden="true">
+      <span>♡</span>
+      <span>♡</span>
+      <span>♡</span>
+      <span>♡</span>
+      <span>♡</span>
+    </div>
+
+    <!-- START -->
+    <section id="start-screen" class="screen active">
+      <div class="emoji">🏥</div>
+
+      <p class="eyebrow">VERY IMPORTANT MEDICAL BUSINESS</p>
+
+      <h1>
+        Obada's<br />
+        <span>Surgery Survival Test</span>
+      </h1>
+
+      <p class="subtitle">
+        Congratulations. You have been selected for a very important mission.
+      </p>
+
+      <div class="mission-card">
+        <div>🎯</div>
+        <strong>OBJECTIVE</strong>
+        <p>Survive surgery and come back to me.</p>
+      </div>
+
+      <button class="primary-btn" id="start-btn">
+        START MISSION ❤️
+      </button>
+
+      <p class="tiny">
+        Made with love by your very worried girlfriend
+      </p>
+    </section>
+
+
+    <!-- LEVEL 1 -->
+    <section id="level-1" class="screen">
+
+      <div class="level-label">LEVEL 1 / 3</div>
+
+      <h2>Catch the hearts ❤️</h2>
+
+      <p>
+        Apparently you need to collect 7 hearts before you're allowed to leave.
+      </p>
+
+      <div class="game-box" id="heart-game">
+
+        <div class="game-hint">
+          Catch them before they disappear!
+        </div>
+
+        <div id="heart-count">
+          0 / 7
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- LEVEL 2 -->
+    <section id="level-2" class="screen">
+
+      <div class="level-label">LEVEL 2 / 3</div>
+
+      <h2>Doctor, choose your treatment </h2>
+
+      <p>
+        What is the scientifically proven treatment for a stubborn doctor?
+      </p>
+
+      <div class="choices">
+
+        <button class="choice" data-correct="false">
+           More medicine
+        </button>
+
+        <button class="choice" data-correct="false">
+           More doctors
+        </button>
+
+        <button class="choice" data-correct="true">
+           His girlfriend's attention 🙄
+        </button>
+
+        <button class="choice" data-correct="false">
+           Sleeping for 8 hours
+        </button>
+
+      </div>
+
+      <p id="choice-result" class="result"></p>
+
+    </section>
+
+
+    <!-- LEVEL 3 -->
+    <section id="level-3" class="screen">
+
+      <div class="level-label">FINAL LEVEL</div>
+
+      <h2>One last question...</h2>
+
+      <p>
+        What are you supposed to do after surgery?
+      </p>
+
+      <div class="choices">
+
+        <button class="choice" data-final="false">
+           Go back to the gym immediately!!!
+        </button>
+
+        <button class="choice" data-final="false">
+           Pretend nothing happened!!!
+        </button>
+
+        <button class="choice" data-final="true">
+           REST and get better ❤️
+        </button>
+
+        <button class="choice" data-final="false">
+           Ignore doctors' instructions!!!
+        </button>
+
+      </div>
+
+      <p id="final-result" class="result"></p>
+
+    </section>
+
+
+    <!-- WIN -->
+    <section id="win-screen" class="screen">
+
+      <div class="confetti">
+        🎉 ❤️  ❤️ 🎉
+      </div>
+
+      <div class="emoji">🏆</div>
+
+      <p class="eyebrow">
+        MISSION COMPLETE
+      </p>
+
+      <h1>
+        You survived. 
+      </h1>
+
+      <div class="letter">
+
+        <p>
+          Okay my super handsomе broken doctor ❤️❤️
+        </p>
+
+        <p>
+          I wish I could be there with you right now,
+          annoying you, taking care of you, and making sure
+          you actually rest.
+        </p>
+
+        <p>
+          Since I can't, this little dump game is my tiny
+          way of being there with you.
+        </p>
+
+        <p class="bold">
+          Now your actual prescription:
+        </p>
+
+        <ul>
+          <li> Rest properly</li>
+          <li> Drink water and eat well</li>
+          <li> Listen to the doctors</li>
+          <li> Don't overdo it</li>
+          <li> Lots of love and care from me</li>
+        </ul>
+
+        <p class="big-love">
+          And get better soon because I need my person, I LOVE YOU ❤️
+        </p>
+
+        <p class="signature">
+          — Your very worried girlfriend 
+        </p>
+
+      </div>
+
+      <button class="secondary-btn" id="restart-btn">
+        PLAY AGAIN 
+      </button>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
